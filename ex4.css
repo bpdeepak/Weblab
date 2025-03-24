@@ -12,8 +12,8 @@ body {
     margin: 20px auto;
     border: 1px solid #dee2e6;
     box-sizing: border-box;
-    background-color: white; /* Added white background to container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #banner {
@@ -78,14 +78,14 @@ body {
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     box-sizing: border-box;
-    background-color: white; /* Added white background to course cards */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .course-card h2 {
     margin-top: 0;
-    color: #212529; /* Darker heading color */
+    color: #212529;
     margin-bottom: 1rem;
 }
 

@@ -1,55 +1,53 @@
-/* Professional Resume Styles */
-
 body {
-    background-color: #f9f9f9; /* Light, clean background */
-    color: #333; /* Darker text for readability */
-    font-family: 'Montserrat', sans-serif; /* Modern, professional font */
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    line-height: 1.6; /* Improved line spacing */
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: linear-gradient(135deg, #34495e, #2c3e50); /* Subtle gradient header */
+    background: linear-gradient(135deg, #34495e, #2c3e50);
     color: white;
     text-align: center;
-    padding: 40px 20px; /* Increased padding */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .name {
-    font-size: 32px; /* Larger name */
-    font-weight: 700; /* Bold name */
-    letter-spacing: 1px; /* Spaced letters */
-    margin-bottom: 5px; /* Spacing below name */
-    font-family: 'Roboto Slab', serif; /* A more professional serif font for the name */
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .title {
-    font-size: 20px; /* Slightly larger title */
-    font-weight: 300; /* Lighter title */
-    color: #ddd; /* Lighter title color */
+    font-size: 20px;
+    font-weight: 300;
+    color: #ddd;
 }
 
 h2 {
-    color: #2c3e50; /* Primary color for headings */
+    color: #2c3e50;
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 8px;
-    margin-top: 30px; /* Increased top margin */
-    font-weight: 600; /* Semi-bold headings */
+    margin-top: 30px;
+    font-weight: 600;
     font-family: 'Roboto Slab', serif;
 }
 
 h3 {
-    color: #34495e; /* Secondary heading color */
+    color: #34495e;
     font-weight: 500;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .contact {
-    background-color: #ecf0f1; /* Lighter background for contact */
+    background-color: #ecf0f1;
     padding: 20px;
     border-radius: 8px;
     margin: 20px;
@@ -57,46 +55,41 @@ h3 {
 }
 
 .contact h2::after {
-    content: " 📧"; /* Icon for email */
-    color: #e74c3c; /* Accent color for icon */
+    content: " 📧";
+    color: #e74c3c;
 }
 
 .experience article::before {
-    content: "• "; /* Bullet point for experience */
-    color: #3498db; /* Accent color for bullet */
+    content: "• ";
+    color: #3498db;
     margin-right: 5px;
 }
 
 .link {
-    color: #3498db; /* Primary link color */
+    color: #3498db;
     text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition */
+    transition: color 0.3s ease;
 }
 
 .link:hover {
     text-decoration: underline;
-    color: #2980b9; /* Darker hover color */
+    color: #2980b9;
 }
 
 .italic {
     font-style: italic;
-    color: #777; /* Softer italic color */
+    color: #777;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: #34495e; /* Darker footer */
+    background: #34495e;
     color: white;
-    margin-top: 40px; /* Space from content */
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Optional: Add some spacing to paragraphs and lists */
 p, ul, li {
     margin-bottom: 15px;
 }
-
-/* Add font imports to the top of the CSS file */
-/* Example for Google Fonts (add to <head> of HTML or import in CSS) */
-/* <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet"> */
