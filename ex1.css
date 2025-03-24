@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Lighter, cleaner background */
+    line-height: 1.6; /* Improved readability */
+    color: #333; /* Darker text for better contrast */
+}
+
+header {
+    background: linear-gradient(to right, #343a40, #28a745); /* Gradient background */
+    color: white;
+    padding: 2rem 1rem; /* Increased padding */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav {
+    background-color: #e9ecef; /* Light navigation background */
+    padding: 1rem 0;
+    text-align: center; /* Center the nav items */
+    border-bottom: 1px solid #dee2e6; /* Add a bottom border */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* allows center alignment */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.5rem; /* Increased spacing */
+}
+
+nav ul li a {
+    color: #495057; /* Darker link color */
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Padding for links */
+    border-radius: 4px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #dee2e6; /* Light hover background */
+    color: #212529; /* Darker hover text */
+}
+
+main {
+    padding: 2rem; /* Increased padding */
+    max-width: 1200px; /* Limit main content width */
+    margin: 0 auto; /* Center main content */
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem; /* Increased padding */
+    background: linear-gradient(to right, #28a745, #343a40); /* Gradient footer */
+    color: white;
+    margin-top: 2rem; /* Spacing from main */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Optional: Add some spacing to paragraphs and headings */
+p {
+    margin-bottom: 1.5rem;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+    color: #212529;
+}
